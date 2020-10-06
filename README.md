@@ -12,7 +12,7 @@ This repository contains IRAF scripts for data reduction of the Gemini Observato
    ```
    wget --input-file [name].list
    ```
-   Note that `wget` comes pre-installed on most Linux distributions. It can be installed on a macOS using [homebrew](https://brew.sh/):
+   Note: `wget` comes pre-installed on most Linux distributions. It can be installed on macOS using [homebrew](https://brew.sh/):
    ```
    brew install wget
    ```
