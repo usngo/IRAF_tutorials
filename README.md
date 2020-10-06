@@ -38,8 +38,6 @@ Data reduction with IRAF and Gemini/IRAF have been extensively covered over the 
 
 Problems, comments, suggestions, and/or need help with any of the above? You can contact the US NGO members via our [Portal](http://ast.noao.edu/csdc/usngo), [Twitter](https://twitter.com/usngo), or submit a pull request on github.
 
-Follow us on Twitter! 
-
-<a href="https://twitter.com/usngo" target="_blank"><img src="https://badgen.net/twitter/follow/usngo"></a>
+Follow us on Twitter! <a href="https://twitter.com/usngo" target="_blank"><img src="https://badgen.net/twitter/follow/usngo"></a>
 
 ---
