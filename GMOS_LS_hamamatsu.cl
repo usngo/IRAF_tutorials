@@ -4,6 +4,8 @@ gmos
 set rawdir=./
 gmos.logfile="log.txt"
 
+!echo N20190302S0248.fits > objectlHD166379 
+
 !sed -e 's=N2=gsN2=g'      objectlHD166379 > listgsHD166379
 !sed -e 's=N2=qgsN2=g'     objectlHD166379 > listqgsHD166379
 !sed -e 's=N2=gsqgsN2=g'   objectlHD166379 > listgsqgsHD166379
@@ -11,11 +13,11 @@ gmos.logfile="log.txt"
 !sed -e 's=N2=stgsqgsN2=g' objectlHD166379 > listetgsqgsHD166379
 
 gsreduce N20190302S0250 rawpath="rawdir$" fl_flat- fl_gmosaic- fl_fixpix- \
-         fl_gsappwave- fl_cut-  bias="rawdir$N20181215S0439_bias.fits"
+         fl_gsappwave- fl_cut-  bias="rawdir$N20190304S0204_bias.fits"
 gsreduce @objectlHD166379 rawpath="rawdir$" fl_flat- fl_gmosaic- fl_fixpix- \
-         fl_gsappwave- fl_cut-  bias="rawdir$N20181215S0439_bias.fits"
+         fl_gsappwave- fl_cut-  bias="rawdir$N20190304S0204_bias.fits"
 gsreduce N20190302S0249 rawpath="rawdir$" fl_flat- fl_gmosaic- fl_fixpix- \
-         fl_gsappwave- fl_over+ bias="rawdir$N20181215S0439_bias.fits"
+         fl_gsappwave- fl_over+ bias="rawdir$N20190304S0204_bias.fits"
 
 gswavelength gsN20190302S0249.fits fl_inte-
 
@@ -40,4 +42,4 @@ imcopy estgsqgsN20190302S0248.fits[sci,1] HD166379
 
 splot HD166379
 
-#rm estgsqgs*.fits g*fits log.txt list* mqgs*.fits N*_flat.fits qgs*.fits splot.log stgs*.fits tgs*.fits HD166379.fits
+#rm estgsqgs*.fits g*fits log.txt list* mqgs*.fits N*_flat.fits qgs*.fits stgs*.fits tgs*.fits HD166379.fits objectlHD166379 
