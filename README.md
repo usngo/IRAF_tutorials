@@ -31,7 +31,9 @@ GMOS longslit B600 spectroscopy of a star [HD166379](http://simbad.u-strasbg.fr/
 ---
 ## Additional resources
 
-Data reduction with IRAF and Gemini/IRAF have been extensively covered over the years. The [US NGO Portal](http://ast.noao.edu/csdc/usngo) has documentation and links to several tutorials and cookbooks (including the [US NGO GMOS Cookbook](http://ast.noao.edu/sites/default/files/GMOS_Cookbook/)) on the instrument pages.
+- **US NGO Portal:** Data reduction with IRAF and Gemini/IRAF have been extensively covered over the years. The [US NGO Portal](http://ast.noao.edu/csdc/usngo) has documentation and links to several tutorials and cookbooks (including the [US NGO GMOS Cookbook](http://ast.noao.edu/sites/default/files/GMOS_Cookbook/)) on the instrument pages.
+
+- **Gemini DR Forum:** The Gemini Observatory maintains a [Data Reduction User Forum](http://drforum.gemini.edu/) with materials on data reduction, installation, and much more!
 
 ---
 ## Need help?
