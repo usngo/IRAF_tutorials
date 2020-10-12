@@ -38,7 +38,9 @@ GMOS longslit B600 spectroscopy of a star [HD166379](http://simbad.u-strasbg.fr/
 ---
 ## Need help?
 
-Problems, comments, suggestions, and/or need help with any of the above? You can contact the US NGO members via our [Portal](http://ast.noao.edu/csdc/usngo), [Twitter](https://twitter.com/usngo), or submit a pull request on github.
+Problems, comments, suggestions, and/or need help with setting up and running the Jupyter notebooks? You can contact the US NGO members via our [Portal](http://ast.noao.edu/csdc/usngo), [Twitter](https://twitter.com/usngo), or submit a *New issue* through github.
+
+For assistance with Gemini IRAF installation and procedures, please submit a ticket to the [Gemini Helpdesk](https://www.gemini.edu/observing/helpdesk/submit-general-helpdesk-request) (Partner Country: US; Topic: Gemini IRAF).
 
 Follow us on Twitter! <a href="https://twitter.com/usngo" target="_blank"><img src="https://badgen.net/twitter/follow/usngo"></a>
 
